@@ -1,6 +1,6 @@
 # IoT - Adafruit IO - Arduino - Color Picker - Manual - Edward van Vliet
 
-# Picking/determining a color via the Color Picker (Block) on Adafruit IO using a LED-strip connected to a NODEMCU 1.0, using Arduino IDE (2.0) software.
+# Picking/determining a color via the Color Picker (Block) on Adafruit IO using a LED-strip connected to a NODEMCU 1.0, by using Arduino IDE (2.0) software.
 
 By Edward van Vliet<br>
 Last updated 6 October 2022
