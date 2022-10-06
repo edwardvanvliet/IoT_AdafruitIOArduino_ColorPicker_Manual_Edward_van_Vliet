@@ -20,7 +20,7 @@ Using this manual you'll be able to pick/determine a color via the Color Picker 
 The first thing we want to do is connect our DHT11 Sensor to the Arduino Board, using Jumber Wires. The image below shows which wires need to be connected to which pins on the board. Note that we also have to attach the resistor between the wires that are connected to `3v3` and `D2`.
 
 Leftmost pin to `3v3` (red wire)<br>
-Second pin to `D2` (green wire)<br>
+Second pin to `D5` (yellow wire)<br>
 Third pin empty<br>
 Fourth pin to `GND` (black wire)<br>
 Resistor between red and green wire<br>
