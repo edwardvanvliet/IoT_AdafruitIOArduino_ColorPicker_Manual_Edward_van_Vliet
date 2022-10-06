@@ -17,7 +17,7 @@ Using this manual you'll be able to pick/determine a color via the Color Picker 
 ![Image of requirements](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/01_ADAFRUIT_IO_KEY_USERNAME.png)
   
 ## Step 1: Connecting the DHT11 Sensor to the Arduino Board
-The first thing we want to do is connect our DHT11 Sensor to the Arduino Board, using Jumber Wires. The image below shows which wires need to be connected to which pins on the board. Note that we also have to attach the resistor between the wires that are connected to `3v3` and `D2`.
+The first thing we want to do is connect our Node MCU to your laptop, using an USB-C to USB-B microcable. Then, we want to connect our LED-strip to the Node MCU, using Jumber Wires glued at the other end of the LED-strip. The image below shows which wires need to be connected to which pins on the board.
 
 Leftmost pin to `3v3` (red wire)<br>
 Second pin to `D5` (yellow wire)<br>
