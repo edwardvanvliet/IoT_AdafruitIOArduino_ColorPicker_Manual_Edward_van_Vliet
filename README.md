@@ -19,8 +19,8 @@ Using this manual you'll be able to pick/determine a color via the Color Picker 
 The first thing we want to do is connect our Node MCU to your laptop, using an USB-C to USB-B microcable. Then, we want to connect our LED-strip to the Node MCU, using Jumber Wires glued at the other end of the LED-strip. The image below shows which wires need to be connected to which pins on the board.
 
 Leftmost pin to `3v3` (red wire)<br>
-Second pin to `D5` (yellow wire)<br>
-Third pin to `GND` (black wire)<br>
+Second pin to `GND` (black wire)<br>
+Right pin to `D5` (yellow wire)<br>
 
 ![Image of requirements](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/00_Required_Hardware_Components_20221010_125042_HDR.jpg)
 
