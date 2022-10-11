@@ -57,22 +57,22 @@ In Arduino IDE:
 2. In tab "config.h" fill in your username and key like the example below.
 
 ```
-#define IO_USERNAME "YOUR USERNAME HERE"<br>
-#define IO_KEY "YOUR KEY HERE"<br>
+#define IO_USERNAME "YOUR USERNAME HERE"
+#define IO_KEY "YOUR KEY HERE"
 ```
 3. Below that, you can fill in your WiFi SSID and Password.
 (Advice: Use your phone's hotspot to prevent router problems, so you can use it everywhere. Also prevent using a 5GHz WiFi if possible.)<br>
 
 ```
-#define WIFI_SSID "YOUR NETWORK NAME HERE"<br>
-#define WIFI_PASS "YOUR PASSWORD HERE"<br>
+#define WIFI_SSID "YOUR NETWORK NAME HERE"
+#define WIFI_PASS "YOUR PASSWORD HERE"
 ```
 
 4. Change the PIN to "D5" and PIXEL_COUNT to the amount of lights your ledstrip have, like the example below.
 
 ```
-#define PIXEL_PIN     D5<br>
-#define PIXEL_COUNT   18<br>
+#define PIXEL_PIN     D5
+#define PIXEL_COUNT   18
 ```
 
 ### Step 6: Upload your code
@@ -86,9 +86,10 @@ In Arduino IDE:
 
 Change the color in the Colorpicker on Adafruit IO. Then you should see your ledstrip change to your chosen color.
 
-<br>
+
 
 ### Possible Errors:
+
 
 ### Error 1: Connection Error
 If you keep seeing dots coming up on your Serial Monitor, it means something is wrong with the connection of your NodeMCU 1.0.
