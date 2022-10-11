@@ -88,10 +88,10 @@ Change the color in the Colorpicker on Adafruit IO. Then you should see your led
 
 
 
-### Possible Errors:
+#### Possible Errors:
 
 
-### Error 1: Connection Error
+#### Error 1: Connection Error
 If you keep seeing dots coming up on your Serial Monitor, it means something is wrong with the connection of your NodeMCU 1.0.
 In my case the problem was the WiFi connection.
 Because at first, I tried using my 5GHz (Home) WiFi throughout this whole process.
@@ -100,7 +100,7 @@ Unfortunately the Serial Monitor kept presenting me dots...
 The dots that are appearing on your Serial Monitor means that your hardware, in this case my NodeMCU 1.0, can't properly connect to a WiFi network.
 That's why it is highly recommended to use an own mobile hotspot, PREVENT using a 5GHz WiFi or hotspot! (According to [this source](https://arduino.stackexchange.com/questions/49370/esp8266-not-connecting-to-wifi) on Arduino Stack Exchange.)
 
-### Solution to Error 1: Connection Error
+#### Solution to Error 1: Connection Error
 Seeing the dots keep coming up on my Serial Monitor, I directly knew there was something wrong with the connection.
 And then I searched about this connection error, and I found out I was not the only one with this problem.
 Apparently according to [this article post about ESP WiFi problems](https://arduino.stackexchange.com/questions/49370/esp8266-not-connecting-to-wifi), the ESP8266 is not able to connect with 5Ghz WiFi.
