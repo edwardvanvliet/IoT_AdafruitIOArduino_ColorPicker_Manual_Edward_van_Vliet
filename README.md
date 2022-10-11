@@ -84,7 +84,7 @@ In Arduino IDE:
 
 ### Step 7: Test your code
 
-Change the color in the Colorpicker on Adafruit IO. Then you should see your ledstrip change to your chosen color.
+Change the color in the Colorpicker on Adafruit IO. Then you should see your ledstrip change to your chosen color.<br>
 
 
 
