@@ -2,7 +2,7 @@
 
 # Picking/determining a color via the Color Picker (Block) on Adafruit IO using a LED-strip connected to a NODEMCU 1.0, by using Arduino IDE (2.0) software.
 
-By Edward van Vliet<br>
+By Edward van Vliet - 500761369<br>
 Last updated 6 October 2022
 
 ## Introduction
