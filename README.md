@@ -28,3 +28,81 @@ Right pin to `D5` (yellow wire)<br>
 For the LED-strip to properly function, we will first need to install the required libraries in the [Arduino IDE](https://www.arduino.cc/en/main/software). We can do this by going to the 'Sketch' dropdown menu, selecting 'Include Library' and then clicking on 'Manage Libraries'.<br>
 
 ![Image of installing libraries in Arduino IDE](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/01_ADAFRUIT_IO_KEY_USERNAME.png)
+
+1. Go to the libraries tab that is the third button on the left. If your IDE verion is lower than 2.0, you can find this in Sketch > Include library > Manage libraries.
+2. Here you search for "Adafruit IO Arduino". Watch out because sometimes the right one is not the one that pops up first.
+3. Find the right one and click "Install" and then "Install All".
+
+### Step 3: Setting up Adafruit IO
+
+1. Go to https://io.adafruit.com/, click on "Get started for free" and make your account.
+2. When your account is ready, click on "IO" in the navigation menu at the top of the page.
+3. Click on the button with the yellow key icon.
+4. Copy your key and remember your username for later use.
+
+### Step 4: Creating Adafruit IO Feed and Color Picker
+
+In Adafruit IO:
+1. Go to Dashboards > New Dashboard, give it a name and create dashboard.
+2. Go to your newly made dashboard.
+3. Create block using the settings button.
+4. Choose "Colorpicker", and give it the feed name: "color"
+5. Create block.
+6. Choose a color with your colorpicker.
+
+### Step 5: Adjust your code
+
+In Arduino IDE:
+1. Go to File > Examples > Adafruit IO Arduino > Adafruitio_14_neopixel.
+2. In tab "config.h" fill in your username and key like the example below.
+
+```
+#define IO_USERNAME "YOUR USERNAME HERE"<br>
+#define IO_KEY "YOUR KEY HERE"<br>
+```
+3. Below that, you can fill in your WiFi SSID and Password.
+(Advice: Use your phone's hotspot to prevent router problems, so you can use it everywhere. Also prevent using a 5GHz WiFi if possible.)<br>
+
+```
+#define WIFI_SSID "YOUR NETWORK NAME HERE"<br>
+#define WIFI_PASS "YOUR PASSWORD HERE"<br>
+```
+
+4. Change the PIN to "D5" and PIXEL_COUNT to the amount of lights your ledstrip have, like the example below.
+
+```
+#define PIXEL_PIN     D5<br>
+#define PIXEL_COUNT   18<br>
+```
+
+### Step 6: Upload your code
+
+1. Upload your code on the button with the arrow on the top left.
+2. Activate the "Serial Monitor" with the magnifying glass button on the top right. Open the "Serial Monitor" below on the page.
+3. Put the Serial Monitor on 115200 baud.
+4. If everything worked right you will see in the Serial Monitor you are connected. If not try to use your hotspot wifi, that worked for me.
+
+### Step 7: Test your code
+
+Change the color in the Colorpicker on Adafruit IO. Then you should see your ledstrip change to your chosen color.
+
+<br>
+
+### Possible Errors:
+
+### Error 1: Connection Error
+If you keep seeing dots coming up on your Serial Monitor, it means something is wrong with the connection of your NodeMCU 1.0.
+In my case the problem was the WiFi connection.
+Because at first, I tried using my 5GHz (Home) WiFi throughout this whole process.
+Unfortunately the Serial Monitor kept presenting me dots...
+
+The dots that are appearing on your Serial Monitor means that your hardware, in this case my NodeMCU 1.0, can't properly connect to a WiFi network.
+That's why it is highly recommended to use an own mobile hotspot, PREVENT using a 5GHz WiFi or hotspot! (According to [this source](https://arduino.stackexchange.com/questions/49370/esp8266-not-connecting-to-wifi) on Arduino Stack Exchange.)
+
+### Solution to Error 1: Connection Error
+Seeing the dots keep coming up on my Serial Monitor, I directly knew there was something wrong with the connection.
+And then I searched about this connection error, and I found out I was not the only one with this problem.
+Apparently according to [this article post about ESP WiFi problems](https://arduino.stackexchange.com/questions/49370/esp8266-not-connecting-to-wifi), the ESP8266 is not able to connect with 5Ghz WiFi.
+
+So then I tried connecting the ESP8266 to my mobiel hotspot, on my smartphone. And it fortunately, it worked!
+
