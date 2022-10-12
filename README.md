@@ -44,6 +44,7 @@ For the LED-strip to properly function, we will first need to install the requir
 
 In Adafruit IO:
 1. Go to Dashboards > New Dashboard, give it a name and create dashboard.
+![Image of dashboard tab in Adafruit IO]()
 2. Go to your newly made dashboard.
 3. Create block using the settings button.
 4. Choose "Colorpicker", and give it the feed name: "color"
