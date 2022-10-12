@@ -129,6 +129,8 @@ In my case the problem was the WiFi connection.
 Because at first, I tried using my 5GHz (Home) WiFi throughout this whole process.
 Unfortunately the Serial Monitor kept presenting me dots...
 
+![Image of the connection error dots in the Serial Monitor](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/17_Connection_Error_dots.png)
+
 The dots that are appearing on your Serial Monitor means that your hardware, in this case my NodeMCU 1.0, can't properly connect to a WiFi network.
 That's why it is highly recommended to use an own mobile hotspot, PREVENT using a 5GHz WiFi or hotspot! (According to [this source](https://arduino.stackexchange.com/questions/49370/esp8266-not-connecting-to-wifi) on Arduino Stack Exchange.)
 
@@ -137,5 +139,7 @@ Seeing the dots keep coming up on my Serial Monitor, I directly knew there was s
 And then I searched about this connection error, and I found out I was not the only one with this problem.
 Apparently according to [this article post about ESP WiFi problems](https://arduino.stackexchange.com/questions/49370/esp8266-not-connecting-to-wifi), the ESP8266 is not able to connect with 5Ghz WiFi.
 
-So then I tried connecting the ESP8266 to my mobiel hotspot, on my smartphone. And fortunately, it worked!
+![Image of mobile hotspot WiFi connected](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/14_Device_is_connected_to_my_hotspot.png)
+
+So then I tried connecting the ESP8266 to my mobiel hotspot, on my smartphone. And fortunately, it worked as you can see below!
 
