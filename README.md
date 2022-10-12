@@ -88,23 +88,24 @@ In Arduino IDE:
 
 ### Step 6: Upload your code
 
-1. First, you could verify the code by clicking on the (when hovering on it - white) button with the check mark icon on it. When you click on it, the button will turn yellow, this means Arduino IDE is verifying/compiling the sketch as you can see down below. You can also see what is happening on the right bottom corner: "Compiling sketch..."
+1. First, you could verify the code by clicking on the (when hovering on it - white) button with the check mark icon on it. When you click on it, the button will turn yellow, this means Arduino IDE is verifying/compiling the sketch as you can see below. You can also see what is happening on the right bottom corner: "Compiling sketch..."
 
 ![Image of compiling sketch by verifying in Arduino IDE](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/11_VERIFY_Compiling_sketch.png)
 
-2. Upload your code by clicking on the button with the arrow icon on the top left of your screen.
-
-![Image of uploading in Arduino IDE]()
+2. Upload your code by clicking on the button with the arrow icon on the top left of your screen, right next to the check mark icon button (used for verifying).
 
 3. Activate the "Serial Monitor" with the magnifying glass button on the top right. Open the "Serial Monitor" on the bottom of your screen.
 
 ![Image of opening the Serial Monitor in Arduino IDE](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/12_Activate_Open_the_Serial_Monitor.png)
 
-4. Put the Serial Monitor on 115200 baud.
+4. Change the baud rate in the Serial Monitor to 115200 baud.
 
-![Image of changing baud rate to 115200 baud in Arduino IDE]()
+![Image of changing baud rate to 115200 baud in Arduino IDE](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/13_Set_to_115200_baud.png)
 
-5. If everything worked as planned, you will see that you're connected in the Serial Monitor. If not, try to use your mobile Hotspot WiFi, that worked for me.
+5. If everything worked as planned, you will see that you're connected in the Serial Monitor. If not, try to use your mobile Hotspot WiFi, that worked for me, as you can see below.
+
+![Image of mobile hotspot WiFi connected]()
+
 
 ### Step 7: Test your code
 
