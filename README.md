@@ -137,10 +137,10 @@ That's why it is highly recommended to use an own mobile hotspot, PREVENT using 
 ## Solution to Error 1: Connection Error
 Seeing the dots keep coming up on my Serial Monitor, I directly knew there was something wrong with the connection.
 And then I searched about this connection error, and I found out I was not the only one with this problem.
-Apparently according to [this article post about ESP WiFi problems](https://arduino.stackexchange.com/questions/49370/esp8266-not-connecting-to-wifi), the ESP8266 is not able to connect with 5Ghz WiFi.
+Apparently according to [this article post about ESP WiFi problems](https://arduino.stackexchange.com/questions/49370/esp8266-not-connecting-to-wifi), the ESP(-296609) is not able to connect with 5Ghz WiFi.
 
 ![Image of mobile hotspot WiFi connected](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/14_Device_is_connected_to_my_hotspot.png)
 
-So then I tried connecting the ESP8266 to my mobiel hotspot, on my smartphone. And fortunately, it worked as you can see below!
+So then I tried connecting the ESP-296609 to my mobile hotspot WiFi, on my smartphone. And fortunately, it worked as you can see below!
 
 ![Image of successful connection in Serial Monitor](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/17_Connection_Error_dots.png)<br>
