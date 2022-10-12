@@ -59,8 +59,9 @@ In Adafruit IO:
 
 In Arduino IDE:
 1. Go to File > Examples > Adafruit IO Arduino > Adafruitio_14_neopixel.
-![Image of Adafruitio_14_neopixexl file in Arduino IDE]()
-2. In tab "config.h" fill in your username and key like the example below.
+![Image of Adafruitio_14_neopixexl file in Arduino IDE](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/07_Arduino_Examples_Adafruit_IO_Arduino_Adafruitio_14_neopixel.png)
+2. Then click on the tab "config.h" in Arduino IDE, fill in your username and key like the example below.
+![Image of config.h tab open in Arduino IDE]()
 
 ```
 #define IO_USERNAME "YOUR USERNAME HERE"
