@@ -143,4 +143,4 @@ Apparently according to [this article post about ESP WiFi problems](https://ardu
 
 So then I tried connecting the ESP-296609 to my mobile hotspot WiFi, on my smartphone. And fortunately, it worked as you can see below!
 
-![Image of successful connection in Serial Monitor](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/17_Connection_Error_dots.png)<br>
+![Image of successful connection in Serial Monitor](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/18_Successfully_connected.png)<br>
