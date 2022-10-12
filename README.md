@@ -106,7 +106,7 @@ In Arduino IDE:
 
 ![Image of mobile hotspot WiFi connected](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/14_Device_is_connected_to_my_hotspot.png)
 
-As you can see, my mobile hotspot is succesfully connected to the following device: ESP-296609.
+As you can see, my mobile hotspot is succesfully connected to the device (ESP-296609).
 
 ### Step 7: Test your code
 
