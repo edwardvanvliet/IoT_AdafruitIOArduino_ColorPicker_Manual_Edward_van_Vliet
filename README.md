@@ -27,8 +27,6 @@ Right pin to `D5` (yellow wire)<br>
 ## Step 2: Installing the required libraries in Arduino IDE
 For the LED-strip to properly function, we will first need to install the required libraries in the [Arduino IDE](https://www.arduino.cc/en/main/software). We can do this by going to the 'Sketch' dropdown menu, selecting 'Include Library' and then clicking on 'Manage Libraries'.<br>
 
-![Image of installing libraries in Arduino IDE](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/01_ADAFRUIT_IO_KEY_USERNAME.png)
-
 1. Go to the libraries tab that is the third button on the left. If your IDE verion is lower than 2.0, you can find this in Sketch > Include library > Manage libraries.
 2. Here you search for "Adafruit IO Arduino". Watch out because sometimes the right one is not the one that pops up first.
 3. Find the right one and click "Install" and then "Install All".
@@ -38,13 +36,14 @@ For the LED-strip to properly function, we will first need to install the requir
 1. Go to https://io.adafruit.com/, click on "Get started for free" and make your account.
 2. When your account is ready, click on "IO" in the navigation menu at the top of the page.
 3. Click on the button with the yellow key icon.
+![Image of your key and username in Adafruit IO](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/01_ADAFRUIT_IO_KEY_USERNAME.png)
 4. Copy your key and remember your username for later use.
 
 ### Step 4: Creating Adafruit IO Feed and Color Picker
 
 In Adafruit IO:
 1. Go to Dashboards > New Dashboard, give it a name and create dashboard.
-![Image of dashboard tab in Adafruit IO]()
+![Image of dashboard tab in Adafruit IO](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/02_Tab_DASHBOARDS.png)
 2. Go to your newly made dashboard.
 3. Create block using the settings button.
 4. Choose "Colorpicker", and give it the feed name: "color"
