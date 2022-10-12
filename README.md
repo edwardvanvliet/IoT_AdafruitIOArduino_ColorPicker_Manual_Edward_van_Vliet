@@ -148,4 +148,4 @@ In the Serial Monitor you should see all the colors (their HEX color codes) you 
 
 ## Final result:
 
-![Image of thumbnail final result](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
+[![Image of thumbnail final result](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/Thumbnail_Final_Result_Video_2022_10_12_133953.png)](https://youtu.be/vnDPWwgaO7w "Kleur LED-strip veranderen m.b.v. Color Picker in Adafruit IO")
