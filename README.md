@@ -104,7 +104,7 @@ In Arduino IDE:
 
 5. If everything worked as planned, you will see that you're connected in the Serial Monitor. If not, try to use your mobile Hotspot WiFi, that worked for me, as you can see below.
 
-![Image of mobile hotspot WiFi connected]()
+![Image of mobile hotspot WiFi connected](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/14_Device_is_connected_to_my_hotspot.png)
 
 
 ### Step 7: Test your code
