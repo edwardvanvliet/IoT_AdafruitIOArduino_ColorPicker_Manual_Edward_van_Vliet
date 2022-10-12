@@ -89,7 +89,7 @@ In Arduino IDE:
 ### Step 6: Upload your code
 
 1. First, you could verify the code by clicking on the (when hovering on it - white) button with the check mark icon on it. When you click on it, the button will turn yellow, this means Arduino IDE is verifying/compiling the sketch as you can see down below.
-![Image of compiling sketch by verifying in Arduino IDE]()
+![Image of compiling sketch by verifying in Arduino IDE](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/11_VERIFY_Compiling_sketch.png)
 2. Upload your code by clicking on the button with the arrow icon on the top left of your screen.
 
 3. Activate the "Serial Monitor" with the magnifying glass button on the top right. Open the "Serial Monitor" on the bottom of your screen.
