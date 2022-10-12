@@ -46,8 +46,9 @@ In Adafruit IO:
 ![Image of dashboard tab in Adafruit IO](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/02_Tab_DASHBOARDS.png)
 2. Go to your newly made dashboard.
 3. Create block using the settings button.
-![Image of new block in Adafruit IO]()
+![Image of new block in Adafruit IO](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/03_Create_a_new_block_Color_Picker.png)
 4. Choose "Colorpicker", and give it the feed name: "color"
+![Image of feed name "color" in Adafruit IO]()
 5. Create block.
 6. Choose a color with your colorpicker.
 
