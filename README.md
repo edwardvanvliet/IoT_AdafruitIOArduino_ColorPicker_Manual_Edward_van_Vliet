@@ -98,7 +98,7 @@ In Arduino IDE:
 
 3. Activate the "Serial Monitor" with the magnifying glass button on the top right. Open the "Serial Monitor" on the bottom of your screen.
 
-![Image of opening the Serial Monitor in Arduino IDE]()
+![Image of opening the Serial Monitor in Arduino IDE](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/12_Activate_Open_the_Serial_Monitor.png)
 
 4. Put the Serial Monitor on 115200 baud.
 
