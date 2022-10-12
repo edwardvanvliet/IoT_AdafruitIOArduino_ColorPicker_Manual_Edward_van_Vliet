@@ -48,9 +48,10 @@ In Adafruit IO:
 3. Create block using the settings button.
 ![Image of new block in Adafruit IO](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/03_Create_a_new_block_Color_Picker.png)
 4. Choose "Colorpicker", and give it the feed name: "color"
-![Image of feed name "color" in Adafruit IO]()
+![Image of feed name "color" in Adafruit IO](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/04_Create_Feed_name_color.png)
 5. Create block.
 6. Choose a color with your colorpicker.
+![Image of where to choose a color in Adafruit IO]()
 
 ### Step 5: Adjust your code
 
