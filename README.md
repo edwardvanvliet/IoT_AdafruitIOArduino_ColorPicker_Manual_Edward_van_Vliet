@@ -61,12 +61,13 @@ In Arduino IDE:
 1. Go to File > Examples > Adafruit IO Arduino > Adafruitio_14_neopixel.
 ![Image of Adafruitio_14_neopixexl file in Arduino IDE](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/07_Arduino_Examples_Adafruit_IO_Arduino_Adafruitio_14_neopixel.png)
 2. Then click on the tab "config.h" in Arduino IDE, fill in your username and key like the example below.
-![Image of config.h tab open in Arduino IDE]()
+![Image of config.h tab open in Arduino IDE](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/08_Arduino_config.h_opens.png)
 
 ```
 #define IO_USERNAME "YOUR USERNAME HERE"
 #define IO_KEY "YOUR KEY HERE"
 ```
+
 3. Below that, you can fill in your WiFi SSID and Password.
 (Advice: Use your phone's hotspot to prevent router problems, so you can use it everywhere. Also prevent using a 5GHz WiFi if possible.)<br>
 
