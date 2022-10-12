@@ -52,7 +52,7 @@ In Adafruit IO:
 5. Create block.
 6. Choose a color with your colorpicker.
 ![Image of how to choose a color in Adafruit IO](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/05_Choose_your_color_gold.png)<br>
-![Image of your chosen color in Adafruit IO]()
+![Image of your chosen color in Adafruit IO](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/06_Color_chosen_gold.png)
 
 
 ### Step 5: Adjust your code
