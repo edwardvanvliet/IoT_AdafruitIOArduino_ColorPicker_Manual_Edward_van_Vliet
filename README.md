@@ -88,10 +88,15 @@ In Arduino IDE:
 
 ### Step 6: Upload your code
 
-1. Upload your code by clicking on the button with the arrow icon on the top left of your screen.
-2. Activate the "Serial Monitor" with the magnifying glass button on the top right. Open the "Serial Monitor" on the bottom of your screen.
-3. Put the Serial Monitor on 115200 baud.
-4. If everything worked as planned, you will see that you're connected in the Serial Monitor. If not, try to use your mobile Hotspot WiFi, that worked for me.
+1. First, you could verify the code by clicking on the (when hovering on it - white) button with the check mark icon on it. When you click on it, the button will turn yellow, this means Arduino IDE is verifying/compiling the sketch as you can see down below.
+![Image of compiling sketch by verifying in Arduino IDE]()
+2. Upload your code by clicking on the button with the arrow icon on the top left of your screen.
+
+3. Activate the "Serial Monitor" with the magnifying glass button on the top right. Open the "Serial Monitor" on the bottom of your screen.
+
+4. Put the Serial Monitor on 115200 baud.
+
+5. If everything worked as planned, you will see that you're connected in the Serial Monitor. If not, try to use your mobile Hotspot WiFi, that worked for me.
 
 ### Step 7: Test your code
 
