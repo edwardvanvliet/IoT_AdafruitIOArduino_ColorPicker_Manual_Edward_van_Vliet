@@ -118,7 +118,7 @@ In the Serial Monitor you can see all the colors (their HEX color codes) you hav
 
 It should also work by using the same color picker on your phone, you should see the same colors (the HEX color codes) you have picked on your phone on your Serial Monitor:
 
-![Image of colors picked on your mobile (smart)phone]()<br>
+![Image of colors picked on your mobile (smart)phone](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/16_All_colors_you_have_used_on_mobile_stated_in_the_Serial_Monitor.png)<br>
 
 ## Possible Errors:
 
