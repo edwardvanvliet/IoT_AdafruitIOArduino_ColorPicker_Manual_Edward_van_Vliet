@@ -83,7 +83,7 @@ In Arduino IDE:
 #define PIXEL_PIN     D5
 #define PIXEL_COUNT   18
 ```
-![Image of PIN and PIXEL_COUNT in code in Arduino IDE]()
+![Image of PIN and PIXEL_COUNT in code in Arduino IDE](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/10_Set_PIXEL_PIN_5_to_PIXEL_PIN_D5.png)
 
 
 ### Step 6: Upload your code
