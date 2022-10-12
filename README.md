@@ -88,14 +88,14 @@ In Arduino IDE:
 
 ### Step 6: Upload your code
 
-1. Upload your code on the button with the arrow on the top left.
-2. Activate the "Serial Monitor" with the magnifying glass button on the top right. Open the "Serial Monitor" below on the page.
+1. Upload your code by clicking on the button with the arrow icon on the top left of your screen.
+2. Activate the "Serial Monitor" with the magnifying glass button on the top right. Open the "Serial Monitor" on the bottom of your screen.
 3. Put the Serial Monitor on 115200 baud.
-4. If everything worked right you will see in the Serial Monitor you are connected. If not try to use your hotspot wifi, that worked for me.
+4. If everything worked as planned, you will see that you're connected in the Serial Monitor. If not, try to use your mobile Hotspot WiFi, that worked for me.
 
 ### Step 7: Test your code
 
-Change the color in the Colorpicker on Adafruit IO. Then you should see your ledstrip change to your chosen color.<br>
+Change the color, by using the Color Picker on Adafruit IO. You could also use your mobile phone to change the color, try it out! Then you should see your LED-strip change to your chosen color.<br>
 
 
 
