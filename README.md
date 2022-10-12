@@ -112,7 +112,13 @@ As you can see, my mobile hotspot is succesfully connected to the device (ESP-29
 
 Change the color, by using the Color Picker on Adafruit IO. You could also use your mobile phone to change the color, try it out! Then you should see your LED-strip change to your chosen color.<br>
 
+In the Serial Monitor you can see all the colors (their HEX color codes) you have picked below one another, by using the color picker on your computer:
 
+![Image of colors picked on your laptop or computer](https://github.com/edwardvanvliet/IoT_AdafruitIOArduino_ColorPicker_Manual_Edward_van_Vliet/blob/main/images/15_All_the_colors_you_have_used_stated_in_the_Serial_Monitor.png)
+
+It should also work by using the same color picker on your phone, you should see the same colors (the HEX color codes) you have picked on your phone on your Serial Monitor:
+
+![Image of colors picked on your mobile (smart)phone]()<br>
 
 ## Possible Errors:
 
