@@ -148,4 +148,4 @@ In the Serial Monitor you should see all the colors (their HEX color codes) you 
 
 ## Final result:
 
-
+![Image of thumbnail final result](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
